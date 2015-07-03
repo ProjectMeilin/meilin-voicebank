@@ -1,3 +1,3 @@
-這個oto.ini是新版2015音源，要搭配2015的音源
+這個oto.ini是寫給新版2015的音源
 
 Written By MGdesigner(Shouichi Chou)
