@@ -1,3 +1,3 @@
-目前oto.ini已經是新版2015音源，也有分拆版oto_ja.ini與oto_zh.ini
+這個oto.ini是新版2015音源，要搭配2015的音源
 
-Written By MGdesigner
+Written By MGdesigner(Shouichi Chou)
