@@ -1,4 +1,5 @@
 ==更新紀錄==
+11/07/2015 change compressed flac to original wav
 07/03/2015 新版2015音源的日語區完全完成
 06/05/2015 從sourceforge搬遷到github
 01/??/2015開始2015更新計劃
@@ -15,10 +16,7 @@ Pronunciation :Mandarlin- 徵音梅林(Zhi Yin Mei Lin) , Japanese- 徴（ち）
 ==檔案說明==
 tar.gz請用  " tar xvf 檔名 " 解開（其他平台請使用可以用的解壓縮軟體來解）
 
-wav目錄裡面的聲波檔是錄音原始檔（24bit 48000hz mono）都是無損壓縮的flac，Unix系平台使用者，在解開的目錄下，複製貼上執行下面這一行，就可以還原成原來的wav檔
-(The wav files in wav folder are the original source recorded in professional studio. Sample files are 24bit 48000hz mono.)
-
-for i in *.flac ; do flac -d $i ; done;rm *.flac
+wav目錄裡面的聲波檔是錄音原始檔（24bit 48000hz mono）
 
 發佈版的包裝檔則是已經後製過（去抵噪、消脣齒音等 ）的16bit 44100hz mono的聲波取樣，能給UTAU或LINNE平台來使用的。
 The publish version is filled with  16 bit 44100hz mono wave sample files. Can be read by  UTAU or Linne platform.

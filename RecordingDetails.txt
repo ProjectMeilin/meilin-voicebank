@@ -4,9 +4,9 @@ UTF-8
 單獨音/連續音錄音表在CSV裡面
 華語錄音的是精簡版output-srt.csv（output.csv的刪減使用ㄧ、ㄨ、ㄩ輔音的連續音，改列為單獨音），將來經測試評估完以後，看看是否需要把output.csv全錄完。
 
-WAV目錄：是在錄音室錄音完成的原始檔，格式是24bit 48000hz，還沒有後製處理（去唇齒音、降噪、normalize等），要使用，請自行從無損flac批次還原成wav檔
+WAV目錄：是在錄音室錄音完成的原始檔，格式是24bit 48000hz，還沒有後製處理（去唇齒音、降噪、normalize等）
 
-錄音 MGdesigner(Shouichi Chou)，聲優Lo Chu，日語發音指導Atsushi
+錄音 MGdesigner(Shouichi Chou)，聲優Lo Chu，日語發音指導Atsushi Enomoto
 
 本音源所有csv錄音表、聲波檔，授權為CC-BY TW3.0 徵音梅林開發委員會 
 
