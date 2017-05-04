@@ -1,13 +1,14 @@
 ## 更新紀錄
-  07/03/2015 新版2015音源的日語區完全完成
-  06/05/2015 從sourceforge搬遷到github
-  01/??/2015開始2015更新計劃
-  01/15/2013更新，上傳20140115版
+  * 07/03/2015 新版2015音源的日語區完全完成
+  * 06/05/2015 從sourceforge搬遷到github
+  * 01/??/2015開始2015更新計劃
+  * 01/15/2013更新，上傳20140115版
 
 ## 目標
   * 本計畫是作能唱華語（台灣風格）與日語的虛擬歌手，徵音梅林。
   * Purpose of the project is to make a virtual singer "Linne" which can sing Mardarin(Taiwanese accent) and Japanese.
   *Pronunciation :Mandarlin- 徵(Zhi)音(Yin)梅(Mei)林(Lin) , Japanese- 徴（ち）音（おん）梅（メイ）林（リン）
+
 ## 檔案說明
   * tar.gz請用  " tar xvf 檔名 " 解開（其他平台請使用可以用的解壓縮軟體來解）
   * wav目錄裡面的聲波檔是錄音原始檔（24bit 48000hz mono）都是無損壓縮的flac，Unix系平台使用者，在解開的目錄下，複製貼上執行下面這一行，就可以還原成原來的wav檔
@@ -19,6 +20,9 @@ for i in *.flac ; do flac -d $i ; done;rm *.flac
 發佈版的包裝檔則是已經後製過（去抵噪、消脣齒音等 ）的16bit 44100hz mono的聲波取樣，能給UTAU或LINNE平台來使用的。
 The publish version is filled with  16 bit 44100hz mono wave sample files. Can be read by  UTAU or Linne platform.  * Voicebank is filled with  16 bit 44100hz mono wave sample files. Used by EFB-GW.
 
+## wav檔案下載
+  * 從github clone `git clone https://github.com/ProjectMeilin/meilin-voicebank.git`
+  * 或是從 https://fs.suboru.me/meilin_soundpack_wav.zip 直接下載zip壓縮檔
 
 ## csv
  * 所有錄音的列表。**output.csv**是```華語```的，**output_japanese.csv**是```日語```的，others是其他項目或者將來增補的。檔案內的項目格式是：
