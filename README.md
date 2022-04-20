@@ -22,7 +22,6 @@ The publish version is filled with  16 bit 44100hz mono wave sample files. Can b
 
 ## wav檔案下載
   * 從github clone `git clone https://github.com/ProjectMeilin/meilin-voicebank.git`
-  * 或是從 https://fs.suboru.me/meilin_soundpack_wav.zip 直接下載zip壓縮檔
 
 ## csv
  * 所有錄音的列表。**output.csv**是```華語```的，**output_japanese.csv**是```日語```的，others是其他項目或者將來增補的。檔案內的項目格式是：
